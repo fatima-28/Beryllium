@@ -1,5 +1,14 @@
-img {
-  height: 900px;
+.slider-img {
+  min-height: 700px;
+  margin-left: 0px;
+  margin-right: 0px;
+  min-width: 900px;
+}
+
+.slide {
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .leftarrows {
@@ -11,14 +20,129 @@ img {
   height: 50px;
   color: #c7c7c7;
   position: absolute;
-  bottom: 250px;
-  left: 10px;
+  bottom: 480px;
+  left: 40px;
   z-index: 3;
   font-size: 40px;
-  opacity: 0.7;
+  opacity: 0.9;
+}
+
+.leftarrows:hover {
+  opacity: 0.5;
 }
 
 .fa-angle-left {
+  position: relative;
+  bottom: 10px;
+  left: 5px;
+}
+
+.rightarrows {
+  background-color: #3a3a3a;
+  border: 5px solid #3a3a3a;
+  cursor: pointer;
+  z-index: 3;
+  width: 40px;
+  height: 50px;
+  color: #c7c7c7;
+  position: absolute;
+  bottom: 480px;
+  right: 40px;
+  z-index: 3;
+  font-size: 40px;
+  opacity: 0.9;
+}
+
+.rightarrows:hover {
+  opacity: 0.5;
+}
+
+.fa-angle-right {
+  position: relative;
+  bottom: 10px;
+  left: 5px;
+}
+
+.arhitecture {
+  color: white;
+  position: relative;
+  bottom: 130px;
+  font-size: 40px;
+  left: 30px;
+}
+
+.work {
+  text-align: center;
+  width: 800px;
+  margin: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.work h2 {
+  font-size: 40px;
+}
+
+.work p {
+  font-size: 20px;
+  color: #8a8a8a;
+}
+
+.work-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.work-item-cart {
+  background-color: white;
+  width: calc(100%/33);
+  width: 350px;
+  height: 450px;
+  margin: 20px;
+}
+
+.work-item-cart img {
+  width: 100%;
+}
+
+.place {
+  color: #8a8a8a;
+  font-size: 20px;
   margin-left: 10px;
-  margin-top: 5px;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.work-items {
+  padding: 10px;
+}
+
+.cart-text {
+  margin-top: 20px;
+}
+
+.image-cards {
+  padding: 10px;
+}
+
+.slick-dots li.slick-dots button:before, .slick-dots li button:before {
+  color: #b1b1b1;
+  opacity: 1;
+  font-size: 16px;
+}
+
+.slick-dots li.slick-active button {
+  border-radius: 100%;
+}
+
+.slick-dots li.slick-active button:before {
+  color: black;
 }
