@@ -215,3 +215,33 @@ text-align: start;
     }
   }
 }
+.features{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  border-top: 1px solid rgb(199, 199, 199);
+
+}
+.features-item{
+  display: flex;
+  padding: 40px;
+  justify-content: space-evenly;
+}
+.icon{
+  margin-right: 20px;
+  font-size: 50px;
+  color: #8a8a8a;
+  
+}
+.learn-more{
+  color: #52D681;
+  font-size: 12px;
+  cursor: pointer;
+    font-weight: 400;
+}
+.features-title{
+  font-weight: 600;
+}
+.features-text{
+   font-weight: 200;
+}

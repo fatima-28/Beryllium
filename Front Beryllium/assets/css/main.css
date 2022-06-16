@@ -251,3 +251,45 @@
 .button-more button:active {
   border: 0px solid transparent;
 }
+
+.features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 10px;
+  border-top: 1px solid #c7c7c7;
+}
+
+.features-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.icon {
+  margin-right: 20px;
+  font-size: 50px;
+  color: #8a8a8a;
+}
+
+.learn-more {
+  color: #52D681;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.features-title {
+  font-weight: 600;
+}
+
+.features-text {
+  font-weight: 200;
+}
