@@ -34,85 +34,19 @@
 
         <div class="work-items">
             <!-- work single item start -->
-            <div class="image-cards">
-                <div class="work-item-cart ">
-                    <img src="https://demos.freehtml5.co/beryllium/images/img_1.jpg" alt="place image">
-                    <p class="title cart-text">New York Arena</p>
-                    <p class="place cart-text">New York</p>
+
+            @foreach (var work in Model.Works)
+            {
+                <div class="image-cards">
+                    <div class="work-item-cart ">
+                        <img src="@work.Image" alt="place image">
+                        <p class="title cart-text">@work.Title</p>
+                        <p class="place cart-text">@work.Location</p>
+                    </div>
                 </div>
-            </div>
-            <!-- work single item end -->
-            <!-- work single item start -->
-            <div class="image-cards">
-                <div class="work-item-cart ">
-                    <img src="https://demos.freehtml5.co/beryllium/images/img_2.jpg" alt="place image">
-                    <p class="title cart-text">New York Arena</p>
-                    <p class="place cart-text">New York</p>
-                </div>
-            </div>
-            <!-- work single item end -->
-            <!-- work single item start -->
-            <div class="image-cards">
-                <div class="work-item-cart ">
-                    <img src="https://demos.freehtml5.co/beryllium/images/img_3.jpg" alt="place image">
-                    <p class="title cart-text">New York Arena</p>
-                    <p class="place cart-text">New York</p>
-                </div>
-            </div>
-            <!-- work single item end -->
-            <!-- work single item start -->
-            <div class="image-cards">
-                <div class="work-item-cart ">
-                    <img src="https://demos.freehtml5.co/beryllium/images/img_1.jpg" alt="place image">
-                    <p class="title cart-text">New York Arena</p>
-                    <p class="place cart-text">New York</p>
-                </div>
-            </div>
-            <!-- work single item end -->
-            <!-- work single item start -->
-            <div class="image-cards">
-                <div class="work-item-cart ">
-                    <img src="https://demos.freehtml5.co/beryllium/images/img_2.jpg" alt="place image">
-                    <p class="title cart-text">New York Arena</p>
-                    <p class="place cart-text">New York</p>
-                </div>
-            </div>
-            <!-- work single item end -->
-            <!-- work single item start -->
-            <div class="image-cards">
-                <div class="work-item-cart ">
-                    <img src="https://demos.freehtml5.co/beryllium/images/img_3.jpg" alt="place image">
-                    <p class="title cart-text">New York Arena</p>
-                    <p class="place cart-text">New York</p>
-                </div>
-            </div>
-            <!-- work single item end -->
-            <!-- work single item start -->
-            <div class="image-cards">
-                <div class="work-item-cart ">
-                    <img src="https://demos.freehtml5.co/beryllium/images/img_1.jpg" alt="place image">
-                    <p class="title cart-text">New York Arena</p>
-                    <p class="place cart-text">New York</p>
-                </div>
-            </div>
-            <!-- work single item end -->
-            <!-- work single item start -->
-            <div class="image-cards">
-                <div class="work-item-cart ">
-                    <img src="https://demos.freehtml5.co/beryllium/images/img_2.jpg" alt="place image">
-                    <p class="title cart-text">New York Arena</p>
-                    <p class="place cart-text">New York</p>
-                </div>
-            </div>
-            <!-- work single item end -->
-            <!-- work single item start -->
-            <div class="image-cards">
-                <div class="work-item-cart ">
-                    <img src="https://demos.freehtml5.co/beryllium/images/img_3.jpg" alt="place image">
-                    <p class="title cart-text">New York Arena</p>
-                    <p class="place cart-text">New York</p>
-                </div>
-            </div>
+
+            }
+
             <!-- work single item end -->
         </div>
     </section>

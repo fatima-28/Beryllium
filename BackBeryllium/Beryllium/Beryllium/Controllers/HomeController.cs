@@ -22,7 +22,8 @@ namespace Beryllium.Controllers
        {
             HomeViewModel home = new HomeViewModel()
             {
-                Slides = _context.Slides.ToList()
+                Slides = _context.Slides.ToList(),
+                Works = _context.Works.Where(w =>!w.IsDeleted).ToList()
             };
             return View(home);
         }

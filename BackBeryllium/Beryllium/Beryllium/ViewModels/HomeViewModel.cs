@@ -9,5 +9,6 @@ namespace Beryllium.ViewModels
     public class HomeViewModel
     {
         public List<Slide> Slides { get; set; }
+        public List<Work> Works { get; set; }
     }
 }
