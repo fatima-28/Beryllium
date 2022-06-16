@@ -305,10 +305,56 @@ input{
   height: 50px;
 }
 .footer-down{
+  padding: 10px;
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   color: #8a8a8a;
   p{
     margin-top: 50px;
+  }
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  
+  padding-left: 105px;
+   padding-right: 55px;
+  box-sizing: border-box;
+  .logo{
+font-weight: 700;
+margin-top: 50px;
+font-size: 25px;
+position: relative;
+left: 40px;
+
+  }
+}
+.pages{
+  display: flex;
+  .home{
+    color: #000000 !important;
+  }
+ 
+}
+.pages-item{
+ margin-right: 60px;
+ margin-top: 60px;
+ color: #8a8a8a;
+ cursor: pointer;
+ transition: 1s;
+ &:hover{
+   color: #000000;
+ }
+}
+
+.drop-div{
+  display: flex;
+  justify-content: space-between;
+  p{
+    margin-right: 10px;
+  }
+  .angle{
+    margin-top: 2px;
   }
 }

@@ -370,6 +370,9 @@ input {
 }
 
 .footer-down {
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -381,4 +384,65 @@ input {
 
 .footer-down p {
   margin-top: 50px;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 105px;
+  padding-right: 55px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar .logo {
+  font-weight: 700;
+  margin-top: 50px;
+  font-size: 25px;
+  position: relative;
+  left: 40px;
+}
+
+.pages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pages .home {
+  color: #000000 !important;
+}
+
+.pages-item {
+  margin-right: 60px;
+  margin-top: 60px;
+  color: #8a8a8a;
+  cursor: pointer;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.pages-item:hover {
+  color: #000000;
+}
+
+.drop-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.drop-div p {
+  margin-right: 10px;
+}
+
+.drop-div .angle {
+  margin-top: 2px;
 }
