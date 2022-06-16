@@ -10,5 +10,8 @@ namespace Beryllium.ViewModels
     {
         public List<Slide> Slides { get; set; }
         public List<Work> Works { get; set; }
+        public List<News> News { get; set; }
+        public List<Testimonials> Testimonials { get; set; }
+
     }
 }

@@ -16,6 +16,9 @@ namespace Beryllium.DAL
         }
         public DbSet<Slide> Slides { get; set; }
         public DbSet<Work> Works { get; set; }
+        public DbSet<News> News { get; set; }
+        public DbSet<Testimonials> Testimonials { get; set; }
+
 
     }
 }
