@@ -319,8 +319,8 @@ ul {
 }
 
 .footer-up-items {
-  padding-right: 100px;
-  padding-left: 50px;
+  padding-right: 60px;
+  padding-left: 20px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding-top: 40px;
@@ -346,4 +346,39 @@ ul {
 .footer-link:hover {
   text-decoration: none;
   color: #ffffff;
+}
+
+.beryllium {
+  margin-left: 50px;
+}
+
+input {
+  font-size: 25px;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 200px;
+  height: 50px;
+}
+
+.send-button {
+  background-color: #52D681;
+  color: white;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+}
+
+.footer-down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #8a8a8a;
+}
+
+.footer-down p {
+  margin-top: 50px;
 }
