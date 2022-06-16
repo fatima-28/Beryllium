@@ -145,3 +145,7 @@ C:\Users\mac\Desktop\BERYLLIUM\BackBeryllium\Beryllium\Beryllium\bin\Debug\netco
 C:\Users\mac\Desktop\BERYLLIUM\BackBeryllium\Beryllium\Beryllium\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\mac\Desktop\BERYLLIUM\BackBeryllium\Beryllium\Beryllium\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\mac\Desktop\BERYLLIUM\BackBeryllium\Beryllium\Beryllium\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\mac\Desktop\BERYLLIUM\BackBeryllium\Beryllium\Beryllium\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\Shared\_AdminLayout.cshtml.g.cs
+C:\Users\mac\Desktop\BERYLLIUM\BackBeryllium\Beryllium\Beryllium\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\_ViewImports.cshtml.g.cs
+C:\Users\mac\Desktop\BERYLLIUM\BackBeryllium\Beryllium\Beryllium\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\_ViewStart.cshtml.g.cs
+C:\Users\mac\Desktop\BERYLLIUM\BackBeryllium\Beryllium\Beryllium\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\Dashboard\Index.cshtml.g.cs
