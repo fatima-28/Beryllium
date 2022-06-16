@@ -25,5 +25,9 @@ namespace Beryllium.Areas.AdminPanel.Controllers
         {
             return View(works);
         }
+        public IActionResult Create()
+        {
+            return View();
+        }
     }
 }

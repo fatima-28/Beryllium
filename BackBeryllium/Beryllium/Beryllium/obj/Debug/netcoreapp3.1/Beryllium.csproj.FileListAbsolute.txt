@@ -150,3 +150,4 @@ C:\Users\mac\Desktop\BERYLLIUM\BackBeryllium\Beryllium\Beryllium\obj\Debug\netco
 C:\Users\mac\Desktop\BERYLLIUM\BackBeryllium\Beryllium\Beryllium\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\_ViewStart.cshtml.g.cs
 C:\Users\mac\Desktop\BERYLLIUM\BackBeryllium\Beryllium\Beryllium\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\Dashboard\Index.cshtml.g.cs
 C:\Users\mac\Desktop\BERYLLIUM\BackBeryllium\Beryllium\Beryllium\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\Work\Index.cshtml.g.cs
+C:\Users\mac\Desktop\BERYLLIUM\BackBeryllium\Beryllium\Beryllium\obj\Debug\netcoreapp3.1\Razor\Areas\AdminPanel\Views\Work\Create.cshtml.g.cs
