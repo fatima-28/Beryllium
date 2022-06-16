@@ -1,27 +1,29 @@
+
 .slider-img {
   min-height: 700px;
   margin-left: 0px;
   margin-right: 0px;
-  min-width: 900px;
+  min-width: 800px;
+  height: 400px;
 }
 .slide{
-  padding: 20px;
+  padding: 50px;
   box-sizing: border-box;
 }
 .leftarrows {
- background-color: #3a3a3a;
- border: 5px solid #3a3a3a;
+ background-color: black;
+ border: 5px solid black;
   cursor: pointer;
   z-index: 3;
   width: 40px;
   height: 50px;
-  color: #c7c7c7;
+  color: #ffffff;
   position: absolute;
-  bottom: 480px;
-  left: 40px;
+  bottom: 400px;
+  left: 70px;
   z-index: 3;
   font-size: 40px;
-  opacity: 0.9;
+  opacity: 0.7;
     &:hover{
     opacity: 0.5;
   }
@@ -34,19 +36,19 @@ bottom: 10px;
 left: 5px;
 }
 .rightarrows {
- background-color: #3a3a3a;
- border: 5px solid #3a3a3a;
+ background-color: black;
+ border: 5px solid black;
   cursor: pointer;
   z-index: 3;
   width: 40px;
   height: 50px;
-  color: #c7c7c7;
+color: #ffffff;
   position: absolute;
-  bottom: 480px;
-right: 40px;
+  bottom: 400px;
+right: 70px;
   z-index: 3;
   font-size: 40px;
-  opacity: 0.9;
+  opacity: 0.7;
   &:hover{
     opacity: 0.5;
   }
@@ -62,9 +64,9 @@ left: 5px;
 .arhitecture{
 color: rgb(255, 255, 255);
 position: relative;
-bottom: 130px;
+bottom: 170px;
 font-size: 40px;
-left: 30px;
+left: 80px;
 }
 .work{
   text-align: center;
@@ -132,7 +134,47 @@ margin-top: 20px;
 .slick-dots li.slick-active button:before {
     color: rgb(0, 0, 0);
 }
-// #slider .slick-dots {
+::selection {
   
-//    margin-bottom: 70px;
-// }
+  background:#52D681;
+  color: white;
+}
+.news-testimonials-div{
+  display: flex;
+  
+  padding: 100px;
+}
+.news-testimonials-item{
+font-weight: 50;
+}
+.news{
+
+  width: 600px;
+  h2{
+text-align: start;
+  }
+ 
+}
+.date{
+  color: #8a8a8a;
+}
+.manila-title{
+  color:#52D681;
+  font-size: 27px;
+  cursor: pointer;
+  transition: 0.6s;
+  &:hover{
+    color: black;
+  }
+}
+.manila-text{
+  font-size: 18px;
+}
+.manila::after{
+   display: inline-block;
+    content: "";
+    border-top: 0.1px solid rgb(150, 149, 149);
+    width: 500px;
+    margin-top: 10px;
+    transform: translateY(-1rem);
+}
