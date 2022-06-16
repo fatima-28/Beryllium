@@ -8,19 +8,14 @@
     <!-- SLider section start -->
     <section id="slider">
         <div class="slide">
-            <div>
-                <img class="slider-img" alt="slider image"
-                     src="https://demos.freehtml5.co/beryllium/images/slider_3.jpg">
-            </div>
-            <div>
-                <img class="slider-img" alt="slider image"
-                     src="https://demos.freehtml5.co/beryllium/images/slider_2.jpg">
-            </div>
-            <div>
-                <img class="slider-img" alt="slider image"
-                     src="https://demos.freehtml5.co/beryllium/images/slider_1.jpg">
 
-            </div>
+            @foreach (var slide in Model.Slides)
+            {
+                <div>
+                    <img class="slider-img" alt="slider image"
+                         src="@slide.SlideUrl">
+                </div>
+            }
 
         </div>
         <p class="arhitecture">Arhitecture#1</p>

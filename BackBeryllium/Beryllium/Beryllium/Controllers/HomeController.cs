@@ -1,4 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Beryllium.DAL;
+using Beryllium.Models;
+using Beryllium.ViewModels;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,9 +11,20 @@ namespace Beryllium.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+
+        private AppDbContext _context { get; }
+
+        public HomeController(AppDbContext context)
         {
-            return View();
+            _context = context;
+        }
+        public IActionResult Index()
+       {
+            HomeViewModel home = new HomeViewModel()
+            {
+                Slides = _context.Slides.ToList()
+            };
+            return View(home);
         }
     }
 }
