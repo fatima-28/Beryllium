@@ -206,3 +206,48 @@
   -webkit-transform: translateY(-1rem);
           transform: translateY(-1rem);
 }
+
+.testimonials {
+  margin-left: 70px;
+}
+
+.comment {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.comment-writer {
+  font-size: 18px;
+  font-style: italic;
+  color: #8a8a8a;
+}
+
+.button-more {
+  -webkit-box-shadow: 1px 1px 10px;
+          box-shadow: 1px 1px 10px;
+  width: 150px;
+  height: 50px;
+}
+
+.button-more button {
+  background-color: #52D681;
+  color: black;
+  width: 150px;
+  height: 50px;
+  border: 0px solid transparent;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.button-more button:hover {
+  color: white;
+  border: 0px solid transparent;
+}
+
+.button-more button:active {
+  border: 0px solid transparent;
+}
