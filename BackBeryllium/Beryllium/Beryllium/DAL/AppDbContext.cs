@@ -18,7 +18,6 @@ namespace Beryllium.DAL
         public DbSet<Work> Works { get; set; }
         public DbSet<News> News { get; set; }
         public DbSet<Testimonials> Testimonials { get; set; }
-
-
+        public DbSet<Future> Futures { get; set; }
     }
 }

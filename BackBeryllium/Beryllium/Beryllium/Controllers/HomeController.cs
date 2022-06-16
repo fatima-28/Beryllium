@@ -25,7 +25,8 @@ namespace Beryllium.Controllers
                 Slides = _context.Slides.ToList(),
                 Works = _context.Works.Where(w => !w.IsDeleted).ToList(),
                 News = _context.News.Where(n => !n.IsDeleted).ToList(),
-                Testimonials=_context.Testimonials.Where(t=>!t.IsDeleted).ToList()
+                Testimonials = _context.Testimonials.Where(t => !t.IsDeleted).ToList(),
+                Futures = _context.Futures.Where(f =>!f.IsDeleted).ToList()
             };
             return View(home);
         }

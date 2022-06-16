@@ -95,39 +95,20 @@
     <!-- features section start -->
     <section id="features">
         <div class="features">
-            <div class="features-item ARCHITECT">
-                <div class="icon"><i class="fa-regular fa-file-zipper"></i></div>
-                <div class="features-text">
-                    <p class="features-title">ARCHITECT</p>
-                    <p class="features-text">
-                        Lorem ipsum dolor sit ameteista, consectetur adipiscing is not
-                        elitistaris.
-                    </p>
-                    <p class="learn-more">LEARN MORE</p>
+            @foreach (var future in Model.Futures)
+            {
+                <div class="features-item ">
+                    <div class="icon"><i class="@future.icon"></i></div>
+                    <div class="features-text">
+                        <p class="features-title">@future.Title</p>
+                        <p class="features-text">
+                            @future.Description
+                        </p>
+                        <p class="learn-more">LEARN MORE</p>
+                    </div>
                 </div>
-            </div>
-            <div class="features-item ">
-                <div class="icon"><i class="fa-solid fa-hammer"></i></i></div>
-                <div class="features-text">
-                    <p class="features-title">PLANNING</p>
-                    <p class="features-text">
-                        Lorem ipsum dolor sit ameteista, consectetur adipiscing is not
-                        elitistaris.
-                    </p>
-                    <p class="learn-more">LEARN MORE</p>
-                </div>
-            </div>
-            <div class="features-item ">
-                <div class="icon"><i class="fa-solid fa-plug"></i></i></div>
-                <div class="features-text">
-                    <p class="features-title">PARKS & EVENTS</p>
-                    <p class="features-text">
-                        Lorem ipsum dolor sit ameteista, consectetur adipiscing is not
-                        elitistaris.
-                    </p>
-                    <p class="learn-more">LEARN MORE</p>
-                </div>
-            </div>
+            }
+
         </div>
     </section>
     <!-- features section end -->
